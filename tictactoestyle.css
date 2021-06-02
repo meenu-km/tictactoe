@@ -17,31 +17,6 @@ body {
   outline-color: rgb(237, 241, 243);
   outline-width: 3mm;
 }
-@media screen and (max-width: 600px) {
-  .square {
-    background-color: rgb(2, 15, 51);
-  }
-}
-@media screen and (min-width: 600px) {
-  .square {
-    background-color: rgb(2, 15, 51);
-  }
-}
-@media screen and (min-width: 768px) {
-  .square {
-    background-color: rgb(2, 15, 51);
-  }
-}
-@media screen and (min-width: 992px) {
-  .square {
-    background-color: rgb(2, 15, 51);
-  }
-}
-@media screen and (min-width: 1200px) {
-  .square {
-    background-color: rgb(2, 15, 51);
-  }
-}
 .square2 {
   margin-left: 7.6cm;
   margin-right: 10cm;
