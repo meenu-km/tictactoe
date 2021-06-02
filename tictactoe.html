@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="tictactoestyle.css" />
+    <title>tictactoegame</title>
+  </head>
+  <body>
+    <div class="square">
+      <h1 id="heading">Tic-Tac-Toe</h1>
+      <p>
+        <strong>TAP</strong> on any <strong>BOX </strong>to<strong>
+          START</strong
+        >
+        the <strong>GAME!!!
+          <p id="p1">
+        <b>X</b> is the FIRST PLAYER and <b>O</b> is the
+        SECOND PLAYER</p>
+      </p>
+      <div class="square2">
+        <h1 id="printresult"></h1>
+      </div>
+      <div class="row1">
+        <input type="text" id="b1" onclick="assignvalueb1();play();" />
+        <input type="text" id="b2" onclick="assignvalueb2();play();" />
+        <input type="text" id="b3" onclick="assignvalueb3();play();" />
+      </div>
+      <div class="row2">
+        <input type="text" id="b4" onclick="assignvalueb4();play();" />
+        <input type="text" id="b5" onclick="assignvalueb5();play();" />
+        <input type="text" id="b6" onclick="assignvalueb6();play();" />
+      </div>
+      <div class="row3">
+        <input type="text" id="b7" onclick="assignvalueb7();play();" />
+        <input type="text" id="b8" onclick="assignvalueb8();play();" />
+        <input type="text" id="b9" onclick="assignvalueb9();play();" />
+      </div>
+      <button id="button" onclick="reset()"><b>Reset</b></button>
+    </div>
+    <script src="tictactoefunction.js"></script>
+  </body>
+</html>
